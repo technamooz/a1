@@ -1,0 +1,57 @@
+{
+  "version": "2",
+  "name": "technamooz-ai",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-04",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "ai": {
+    "binding": "AI"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "[REPLACE_WITH_KV_NAMESPACE_ID]"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "technamooz_ai",
+      "database_id": "[REPLACE_WITH_D1_DATABASE_ID]"
+    }
+  ],
+  "vars": {
+    "APP_VERSION": "2.0.0",
+    "APP_NAME": "Technamooz AI",
+    "APP_FA_NAME": "تکناموز",
+    "APP_AUTHOR": "امیر پارسا",
+    "APP_AUTHOR_EN": "Amir Parsa",
+    "APP_PACKAGE": "technamooz-ai-version2.0.0",
+    "APP_TAGLINE": "دستیار هوش مصنوعی حرفه‌ای تکناموز",
+    "APP_DESCRIPTION": "پلتفرم چت هوش مصنوعی، ربات تلگرام و پنل مدیریت روی Cloudflare Workers",
+    "APP_SUPPORT_TELEGRAM": "https://t.me/technamooz_support",
+    "APP_SUPPORT_HANDLE": "@technamooz_support",
+    "APP_WEBSITE": "https://technamooz.ai",
+    "ADMIN_PATH": "/admin",
+    "SESSION_TTL_SEC": "43200",
+    "LOGIN_TRIES": "6",
+    "LOGIN_WINDOW_SEC": "900",
+    "CHAT_RATE_LIMIT": "35",
+    "CHAT_RATE_WINDOW_SEC": "600",
+    "PBKDF2_ITERATIONS": "2500",
+    "PBKDF2_MAX_ITERATIONS": "100000",
+    "MAX_TOKENS_NORMAL": "4096",
+    "MAX_TOKENS_DEEP": "12288",
+    "ROUNDS_CAP": "24",
+    "MEMORY_ENABLED": "true",
+    "FACTS_ENABLED": "true",
+    "FALLBACK_ENABLED": "true",
+    "MAINTENANCE": "false",
+    "MODEL_CACHE_TTL_HOURS": "6",
+    "PICKER_TTL_SEC": "900",
+    "BROADCAST_BATCH": "10"
+  }
+}
